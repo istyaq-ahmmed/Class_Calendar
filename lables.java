@@ -18,6 +18,7 @@ public class lables {
         panel.setBounds(x, y, 100, _30);
         JLabel label=new JLabel();
         label.setText(st);
+        label.setForeground(new Color(255, 252, 194));
         label.setHorizontalAlignment(JLabel.CENTER);
         label.setVerticalAlignment(JLabel.BOTTOM);
         panel.add(label);
