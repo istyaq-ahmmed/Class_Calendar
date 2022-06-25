@@ -37,12 +37,7 @@ public class Frame {
         frame.add(dateLable[i].DLPanel);
         x_axix++;
     }
-    // frame.add(l2.pane);
-    // frame.add(l3.pane);
-    // frame.add(l4.pane);
-    // frame.add(l5.pane);
-    // frame.add(l6.pane);
-    // frame.add(l7.pane);
+    frame.setLayout(null);
     frame.setVisible(true);
     }
 }
