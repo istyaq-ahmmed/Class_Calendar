@@ -1,5 +1,7 @@
 //import javax.swing.JPanel;
 import javax.swing.border.Border;
+import javax.swing.plaf.DimensionUIResource;
+
 import java.awt.*;
 //import java.lang.System.Logger.Level;
 //import javax.swing.BorderFactory;
@@ -21,18 +23,23 @@ public class DateLable {
         label.setOpaque(true);
         label.setBackground(new Color(161, 227, 216));
         ///label.setBounds(35,10,30,30);
-        label.setFont(new Font("Serif", Font.PLAIN, 25));
+        label.setFont(new Font("Serif", Font.BOLD, 25));
+        
         JPanel event=new JPanel();
         event.setOpaque(true);
         event.setBackground(new Color(247, 255, 147));
+        event.setPreferredSize(new Dimension(0, 35));
+
         JLabel ct=new JLabel();
         ct.setText("CT");
         ct.setForeground(Color.red);
         JLabel as=new JLabel();
         as.setText("AS");
         as.setForeground(Color.pink);
+
         event.add(ct);
         event.add(as);
+
         event.setLayout(new FlowLayout());
         DLPanel.add(label,BorderLayout.CENTER);
         DLPanel.add(event,BorderLayout.SOUTH);

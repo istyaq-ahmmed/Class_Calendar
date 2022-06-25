@@ -20,7 +20,7 @@ public class lables {
         JLabel label=new JLabel();
         label.setText(st);
         label.setForeground(new Color(255, 255, 255));
-        label.setFont(new Font("Serif", Font.PLAIN, 18));
+        label.setFont(new Font("Serif", Font.BOLD, 20));
         
         label.setHorizontalAlignment(JLabel.CENTER);
         label.setVerticalAlignment(JLabel.CENTER);
