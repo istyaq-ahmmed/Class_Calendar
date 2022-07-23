@@ -1,3 +1,4 @@
+//All credit goes to Istyaq. Thank you so much Istyaq.
 import javax.swing.JPanel;
 import javax.swing.border.Border;
 
